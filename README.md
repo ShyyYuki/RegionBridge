@@ -48,7 +48,7 @@ There is no configuration and there are no further dependencies. Every plugin th
 
 RegionBridge is published through [JitPack](https://jitpack.io). Use `compileOnly` / `provided`: the classes are supplied at runtime by the RegionBridge plugin on the server, so they must not be shaded into your plugin.
 
-Replace `shyyyuki` with the GitHub user or organization that hosts the repository, and `1.0.0` with the release tag you want.
+Replace `ShyyYuki` with the GitHub user or organization that hosts the repository, and `1.0.0` with the release tag you want.
 
 ### Gradle (Kotlin DSL)
 
@@ -58,7 +58,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.github.shyyyuki.RegionBridge:regionbridge-core:1.0.0")
+    compileOnly("com.github.ShyyYuki.RegionBridge:regionbridge-core:1.0.0")
 }
 ```
 
@@ -70,7 +70,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.github.shyyyuki.RegionBridge:regionbridge-core:1.0.0'
+    compileOnly 'com.github.ShyyYuki.RegionBridge:regionbridge-core:1.0.0'
 }
 ```
 
@@ -86,7 +86,7 @@ dependencies {
 
 <dependencies>
     <dependency>
-        <groupId>com.github.shyyyuki.RegionBridge</groupId>
+        <groupId>com.github.ShyyYuki.RegionBridge</groupId>
         <artifactId>regionbridge-core</artifactId>
         <version>1.0.0</version>
         <scope>provided</scope>
@@ -207,4 +207,4 @@ ConcurrentEntityMap<MyData> entityData = bridge.<MyData>entityMap().autoClean(th
    ```
 
 4. Create a GitHub Release with a tag such as `1.0.0` and attach `RegionBridge-1.0.0.jar`.
-5. Open `https://jitpack.io/#shyyyuki/RegionBridge`, select the tag, and click **Get it** to trigger the first build.
+5. Open `https://jitpack.io/#ShyyYuki/RegionBridge`, select the tag, and click **Get it** to trigger the first build.
