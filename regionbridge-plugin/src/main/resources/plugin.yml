@@ -1,0 +1,14 @@
+name: RegionBridge
+main: io.github.shyyyuki.regionbridge.plugin.RegionBridgePlugin
+version: ${version}
+api-version: '1.20'
+folia-supported: true
+description: Unified Thread-Safety API for Spigot, Paper, Purpur, and Folia
+commands:
+  regionbridge:
+    description: RegionBridge Info and Debug
+    usage: /regionbridge <info|debug off|warn|strict>
+    permission: regionbridge.admin
+permissions:
+  regionbridge.admin:
+    default: op
