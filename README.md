@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/shyyyuki/regionbridge/badge)](https://www.codefactor.io/repository/github/shyyyuki/regionbridge)
+
 # RegionBridge
 
 A unified thread-safety API for **Spigot, Paper, Purpur, and Folia**.
