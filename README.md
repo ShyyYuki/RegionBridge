@@ -50,8 +50,6 @@ There is no configuration and there are no further dependencies. Every plugin th
 
 RegionBridge is published through [JitPack](https://jitpack.io). Use `compileOnly` / `provided`: the classes are supplied at runtime by the RegionBridge plugin on the server, so they must not be shaded into your plugin.
 
-Replace `ShyyYuki` with the GitHub user or organization that hosts the repository, and `1.0.0` with the release tag you want.
-
 ### Gradle (Kotlin DSL)
 
 ```kotlin
